@@ -4,10 +4,9 @@
   "description": "Ahaa Masala E-commerce Store with Offline-First Sync",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
     "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "build": "npm install --include=dev && tsc && vite build",
+    "start": "node server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
