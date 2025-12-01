@@ -1,0 +1,5 @@
+{
+  "name": "Ahaa! Masala app",
+  "description": "A fully functional e-commerce store for spices with Telugu language support, Admin panel, WhatsApp order integration, and UPI payment flows. Uses LocalStorage for data persistence in this demo.",
+  "requestFramePermissions": []
+}
